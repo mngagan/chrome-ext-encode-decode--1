@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles.scss';
+import App from './components/app'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const Index = () => {
-  return <div style = {{width : '500px', height : "500px"}}>Welcome to React --- namste -- jai balaya</div>;
+  return <React.Fragment>
+    <App />
+  </React.Fragment>
 };
 ReactDOM.render(<Index />, document.getElementById('root'));
