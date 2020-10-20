@@ -1,4 +1,6 @@
-# Chrome extension :simple_smile:
+# Chrome extension 
+:+1: :sparkles: :camel: :tada:
+:rocket: :metal: :octocat:
 
     Remove line breaks
     base64 - encode, decode
