@@ -7,6 +7,6 @@
     escape, unescape characters
 
 # code
-
-    >using styled components.
-    >using default react state, not using any other state management libraries
+   tretrte:
+    > using styled components.
+    > using default react state, not using any other state management libraries
