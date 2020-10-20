@@ -1,4 +1,4 @@
-# Chrome extension
+# Chrome extension :simple_smile:
 
     Remove line breaks
     base64 - encode, decode
