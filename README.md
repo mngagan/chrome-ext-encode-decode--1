@@ -1,3 +1,5 @@
-# react-webpack-express-babel-sass boilerplate
- 
-# taisy
+# Chrome extension
+
+    Remove line breaks
+    base64 - encode, decode
+    escape, unescape characters
