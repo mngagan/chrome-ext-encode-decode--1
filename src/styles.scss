@@ -1,17 +1,42 @@
 $color-sassy: #ff4f09;
 $color-blue: #0059ff;
-html, body{
-    height: 500px;
-    width: 500px;
-    margin : 0;
-    padding : 0;
-  }
 
-  #root{
-    height: 100%;
-    width: 100%;
-    margin : 2px;
-    padding : 0;
-  }
+html,
+body {
+  height: 500px;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
 
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0;
+}
 
+#change-theme-button {
+  right: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+#code-info {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+
+#github-icon {
+  right: 10px;
+  position: absolute;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
