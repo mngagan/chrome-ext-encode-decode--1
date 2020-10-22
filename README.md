@@ -2,7 +2,7 @@
 :+1: :sparkles: :camel: :tada:
 :rocket: :metal: :octocat:
 
-    [] Remove line breaks
+    [ ] Remove line breaks
     base64 - encode, decode
     escape, unescape characters
 
