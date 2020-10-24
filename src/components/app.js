@@ -31,14 +31,14 @@ function app() {
     }
     useEffect(() => {
         new ClipboardJS('.clipboard-btn');
-        chrome.storage.sync.get(['mode'], function (items) {
+        chrome?.storage?.sync.get(['mode'], function (items) {
             console.log('Settings retrieved', items);
             items.mode && setmode(items.mode)
         });
     }, [])
 
     useEffect(() => {
-        chrome.storage.sync.set({ 'mode': mode }, function () {
+        chrome?.storage?.sync.set({ 'mode': mode }, function () {
             console.log('Settings saved');
         });
     }, [mode])
